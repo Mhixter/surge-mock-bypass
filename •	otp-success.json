@@ -1,1 +1,9 @@
-
+{
+  "status": "success",
+  "message": "OTP verified",
+  "token": "mocked_token",
+  "user": {
+    "id": "123456",
+    "phone": "+2348012345678"
+  }
+}

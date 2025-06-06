@@ -1,0 +1,13 @@
+{
+  "job_complete": true,
+  "result_code": "1012",
+  "result_text": "Verified",
+  "smile_job_id": "SIMULATED_JOB_ID",
+  "user_id": "c68c25fd-xxxx-yyyy-yyyy-zzzzzzzzzzzz",
+  "actions": {
+    "verify_selfie": {
+      "status": "Passed",
+      "similarity": 99.9
+    }
+  }
+}
